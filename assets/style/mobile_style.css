@@ -66,6 +66,12 @@ button
     padding: 13px 0px 13px 0px;
     font-weight: 700;
 }
+h1
+{
+    font-family: "Inter", sans-serif;
+    color:var(--Green) ;
+    text-align: center;
+}
 h2
 {
     font-weight: 600;
@@ -106,12 +112,12 @@ p
         --Green: hsl(75, 94%, 57%);
 }
 button:hover {
-    background-color: hsl(75, 94%, 57%);
-    color: hsl(0, 0%, 12%);
+    background-color: var(--Green);
+    color: var(--OffBlack);
     cursor: pointer;
 }
 .boton_p:hover {
-    background-color: hsl(75, 94%, 57%);
-    color: hsl(0, 0%, 12%);
+    background-color: var(--Green);
+    color: var(--OffBlack);
     cursor: pointer;
 }
